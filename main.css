@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.time {
+  margin: 50px auto;
+  font-size: 80px;
+  text-align: center;
+}
+.buttons {
+  margin: 0 auto;
+  display: flex;
+  width: 360px;
+}
+.button {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  background-color: orangered;
+  font-size: 15px;
+  margin: 0 10px;
+  border-width: 0;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: firebrick;
+}
+.button:focus {
+  outline-width: 0;
+}
+.check {
+  background-color: rgb(255, 182, 155);
+}
+.containers {
+  margin: 30px auto;
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+}
+.left,
+.right {
+  width: 400px;
+  height: 400px;
+  outline: 1px solid lightgray;
+}
+.left,
+.right {
+  display: flex;
+  flex-wrap: wrap;
+}
+.puzzle {
+  width: 100px;
+  height: 100px;
+  background: url(031.jpg);
+}
+.puzzle2 {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+.puzzle2::selection {
+  background: transparent;
+}
+.active {
+  background-color: black;
+}
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(105, 105, 105, 0.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.stillHaveTime,
+.lost,
+.win {
+  margin: 20px auto;
+  width: 700px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  border: 1px solid black;
+  padding-top: 20px;
+  border-radius: 5px;
+  display: none;
+  background-color: white;
+}
+
+h2,
+h3 {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 30px;
+}
+.close,
+.check2,
+.close2,
+.close3 {
+  margin: 20px 20px;
+  width: 70px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border-width: 0;
+}
+.close,
+.close2,
+.close3 {
+  background-color: orangered;
+}
+.close:hover {
+  background-color: firebrick;
+}
+.close:focus {
+  box-shadow: 0 0 2px 2px rgba(178, 34, 34, 0.8);
+  outline-width: 0;
+}
+.check2 {
+  background-color: forestgreen;
+}
+.check2:hover {
+  background-color: green;
+}
+.check2:focus {
+  box-shadow: 0 0 2px 2px rgba(0, 128, 0, 0.5);
+  outline-width: 0;
+}
+.close2,
+.close3 {
+  margin: 20px auto;
+  display: block;
+}
+.buttons2 {
+  text-align: center;
+}
+.close2:hover {
+  background-color: firebrick;
+}
+.close2:focus {
+  box-shadow: 0 0 2px 2px rgba(178, 34, 34, 0.8);
+  outline-width: 0;
+}
+.close3:hover {
+  background-color: firebrick;
+}
+.close3:focus {
+  box-shadow: 0 0 2px 2px rgba(178, 34, 34, 0.8);
+  outline-width: 0;
+}
